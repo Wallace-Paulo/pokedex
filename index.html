@@ -7,6 +7,10 @@
     <link rel="shortcut icon" href="./image/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="./css/style.css" />
     <script defer src="./js/script.js"></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"
+    ></script>
     <!-- defer: carrega o script após o carregamento da página -->
   </head>
   <body>
@@ -23,6 +27,7 @@
           placeholder="Name or Number"
           required
         />
+        <ul class="suggestions"></ul>
       </form>
       <div class="buttons">
         <button class="button btn-prev">Prev <</button>
